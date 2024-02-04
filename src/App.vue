@@ -422,7 +422,7 @@ export default {
 }
 .bottom_menu_container {
   width: 100%;
-  height: 50px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -432,6 +432,7 @@ export default {
   .station_selector {
     width: 100%;
     height: 100%;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
