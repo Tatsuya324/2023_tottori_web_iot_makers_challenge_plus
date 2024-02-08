@@ -16,7 +16,11 @@
       </div>
     </div>
     <div class="stop_btn_container">
-      <div class="btn_element" @click="stop_btn_push()"></div>
+      <div
+        v-if="!btn_push_is"
+        class="btn_element"
+        @click="stop_btn_push()"
+      ></div>
       <img
         v-if="btn_push_is"
         class="btn_image"
